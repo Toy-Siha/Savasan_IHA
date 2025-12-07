@@ -1,0 +1,3 @@
+[submodule "Autonomous-UAV"]
+	path = Autonomous-UAV
+	url = https://github.com/yunusemretom/Autonomous-UAV.git
