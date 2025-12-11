@@ -1,3 +1,6 @@
 [submodule "Autonomous-UAV"]
 	path = Autonomous-UAV
 	url = https://github.com/yunusemretom/Autonomous-UAV.git
+[submodule "toy-tctrackpp"]
+	path = toy-tctrackpp
+	url = https://github.com/tugbatrl/toy-tctrackpp.git
