@@ -5,3 +5,15 @@
 [submodule "toy-tctrackpp"]
 	path = toy-tctrackpp
 	url = https://github.com/tugbatrl/toy-tctrackpp.git
+[submodule "yki_dashboard_ui"]
+	path = yki_dashboard_ui
+	url = https://github.com/emine370/yki_dashboard_ui.git
+[submodule "mock_server"]
+	path = mock_server
+	url = https://github.com/emine370/mock_server
+[submodule "TEKNOFEST2026_fighter_uav_integration"]
+	path = TEKNOFEST2026_fighter_uav_integration
+	url = https://github.com/meryem-zeynep-ozdogan/TEKNOFEST2026_fighter_uav_integration
+[submodule "yki_backend"]
+	path = yki_backend
+	url = https://github.com/emine370/yki_backend.git
