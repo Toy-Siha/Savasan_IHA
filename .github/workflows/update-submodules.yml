@@ -1,0 +1,27 @@
+name: Update Submodules
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Her gece yarısı
+  workflow_dispatch:       # Elle tetikleme butonu
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update submodules
+        run: |
+          git submodule update --remote --merge
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add .
+          git diff --staged --quiet || git commit -m "submodule'ler güncellendi"
+          git push
