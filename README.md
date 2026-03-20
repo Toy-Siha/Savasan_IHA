@@ -102,42 +102,7 @@ PyQt5 tabanlı masaüstü dashboard uygulaması.
   - `video_thread.py` - Video akışı thread'i
   - `qr_camera_thread.py` - QR kod okuma
 
----
 
-## 🚀 Hızlı Başlangıç
-
-### Gereksinimler
-- ROS2 (DogFight ve TEKNOFEST2026 için)
-- Python 3.8+
-- Gazebo Sim
-- PX4 Autopilot
-
-### DogFight Simülasyonu Başlatma
-```bash
-cd DogFight/gazebo_simulation
-./scripts/install.sh
-./scripts/start_simulation.sh
-```
-
-### Mock Server Başlatma
-```bash
-cd mock_server
-python server/ws_server.py
-```
-
-### YKI Dashboard Başlatma
-```bash
-cd yki_dashboard_ui
-pip install -r requirements.txt
-python main.py
-```
-
-### YKI Backend Başlatma
-```bash
-cd yki_backend
-pip install -r backend/requirements.txt
-python backend/main.py
-```
 
 ---
 
